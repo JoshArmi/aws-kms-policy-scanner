@@ -24,7 +24,3 @@ integration-test:
 
 test:
 	go test -cover ./cmd ./pkg/usecases
-
-plan:
-	terraform plan -out=output.tfplan
-	terraform show -no-color -json output.tfplan > output.json
