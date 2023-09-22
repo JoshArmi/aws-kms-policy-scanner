@@ -1,0 +1,5 @@
+DefaultBrowser = "STDOUT"
+CustomBrowserPath = ""
+CustomSSOBrowserPath = ""
+Ordering = ""
+ExportCredentialSuffix = "-c"
